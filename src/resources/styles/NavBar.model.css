@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+
+
+:root{
+    --primary-font-logo: "Boldonse";
+}
+
+header {
+    border: 2px dotted green;
+    display: flex;
+    padding: 1rem 8rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+header h1 {
+    flex-grow: 1;
+    font-family: var(--primary-font-logo);
+    font-size: 3rem;
+}
+
+header nav ul {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+
+header .tryBtn{
+    display: block;
+    padding: 0.6rem 0.9rem;
+    border-radius: 20px;
+    background-color: #6a994e;
+    color: white;
+}
+
+header nav ul a{
+    white-space: nowrap;
+}
+
+@media only screen and (max-width:940px){
+    header{
+        flex-wrap: wrap;
+    }
+
+    header h1{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:640px){
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
