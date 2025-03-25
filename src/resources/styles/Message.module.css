@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+
+
+
+.message-container{
+    margin-top: 8rem;
+    display: block;
+    font-family: "Boldonse";
+    padding-left: 5vw;
+}
+
+.message-container h1{
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.message-container span {
+    color: #6a994e;
+}

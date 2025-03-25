@@ -1,0 +1,46 @@
+
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.search-card{
+    border: 2px #6a994e;
+    width: 74%;
+    border-radius: 15px;
+}
+
+.search-card form{
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 15px;
+
+}
+
+.search-card form input[type="text"]{
+    flex-grow: 1;
+    padding: 1rem;
+    border: none;
+    border-radius: 15px;
+    background-color: #fff;
+    outline: none;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #727272;
+
+}
+
+.search-card form input[type="submit"]{
+    display: none;
+}
+
+.search-card form label{
+    display: block;
+    margin: auto;
+    padding-right: 0.6rem;
+    font-size: 1.5rem;
+    color: #6a994e;
+}
